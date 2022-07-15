@@ -28,3 +28,8 @@ jobs:
           type: 'zip'
           filename: 'WagonDatapack.zip'
           path: './wagonDatapack'
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: "WagonDatapack.zip"
+          generateReleaseNotes: true
+          token: ${{ secrets.GITHUB_TOKEN }}
