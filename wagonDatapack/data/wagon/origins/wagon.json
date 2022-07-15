@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"wagon:carnivore",
+		"wagon:dragonwings",
+		"wagon:animal_instinct",
+		"wagon:fragile",
+		"wagon:need_for_mobility"
+	],
+	"icon": "minecraft:dragon_head",
+	"impact": 2,
+	"name": "Wolf-dragon",
+	"description": "a Wolf dragon hybrid origin "
+}

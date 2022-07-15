@@ -1,0 +1,6 @@
+{
+	"type": "origins:elytra_flight",
+	"name": "Dragon Wings",
+	"description": "Being half dragon gives you have wings to glide with",
+	"render_elytra": false
+}
