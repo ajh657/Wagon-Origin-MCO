@@ -1,6 +1,6 @@
 {
   "name": "Fragile",
-  "description": "You have 2 less hearts of health.",
+  "description": "Your genetic stability is low making you fragile.",
   "type": "origins:attribute",
   "modifier": {
     "name": "Fragile health reduction",

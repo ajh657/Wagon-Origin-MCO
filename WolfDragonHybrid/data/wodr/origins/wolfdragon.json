@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"wodr:carnivore",
+		"wodr:dragon_wings",
+		"wodr:animal_instinct",
+		"wodr:fragile",
+		"wodr:need_for_mobility"
+	],
+	"icon": "minecraft:dragon_head",
+	"impact": 2,
+	"name": "Wolf-dragon",
+	"description": "A Wolf-dragon hybrid. Granting some powers from both species but with genetic instablility you are weaker then human",
+	"order": 657
+}

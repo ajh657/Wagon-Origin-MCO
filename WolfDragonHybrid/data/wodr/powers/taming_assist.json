@@ -1,0 +1,33 @@
+{
+    "name": "Ease of communication",
+    "description": "Being half wolf it is easy to communicate with wolves. You can tame wolves with only one bone.",
+    "type": "origins:action_on_entity_use",
+    "bientity_action": {
+        "type": "origins:tame"
+    },
+    "bientity_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:actor_condition",
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "bone"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "wolf"
+                }
+            }
+        ]
+    }
+}

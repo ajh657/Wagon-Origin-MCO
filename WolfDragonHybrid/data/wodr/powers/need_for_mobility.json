@@ -1,6 +1,6 @@
 {
   "name": "Need for Mobility",
-  "description": "You can only wear armor up to iron value.",
+  "description": "Your desire mobility. As result you can only wear armor up to iron value.",
   "type": "origins:restrict_armor",
   "head": {
     "type": "origins:armor_value",
